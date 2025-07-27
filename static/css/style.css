@@ -51,7 +51,8 @@ blockquote {
   font-style: italic;
   text-indent: -0.3em;
 }
-blockquote footer {
+blockquote cite {
+  display: block;
   margin: 0.5em 0 0 0;
   color: #c90707;
   font-style: normal;
