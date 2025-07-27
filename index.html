@@ -1,91 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>defilosofen.nl</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>De Filosofen</title>
+    <link rel="preload" href="./static/type/Vollkorn.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="./static/type/Vollkorn-Italic.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="stylesheet" href="./static/css/style.css" />
   </head>
   <body>
-    <div id="wrapper">
-      <header>
-        <a href="https://defilosofen.nl">
-          <h1>de filosofen</h1>
-        </a>
-      </header>
+    <header>
+      <a href="/">
+        <h1>De Filosofen</h1>
+        <svg viewBox="0 0 135 30" xmlns="http://www.w3.org/2000/svg">
+          <text id="logo" x="10" y="20">De Filosofen</text>
+        </svg>
+      </a>
+    </header>
 
-      <nav>
-          <ul>
-            <li>
-              <a href="index.html"><span></span></a>
-            </li>
-            <li>
-              <a href="index.html"><span></span></a>
-            </li>
-            <li>
-              <a href="index.html"><span>Over</span></a>
-            </li>
-          </ul>
-        </nav>
+    <nav>
+      <ul>
+        <li>
+          <a href="#actie"><span>Actie</span></a>
+        </li>
+        <li>
+          <a href="#consult"><span>Consult</span></a>
+        </li>
+        <li>
+          <a href="#over"><span>Over</span></a>
+        </li>
+      </ul>
+    </nav>
 
-      <section>
-        <article>
-          <h2>Filosofie in actie</h2>
-          <p>
-            Wij halen filosofie uit de academische wereld en maken haar toegankelijk, praktitisch en toepasbaar 
-            voor iedereen. Filosofie is niet enkel een academische discipline maar een levende praktijk die iedereen
-            kan toepassen in het dagelijks leven. Wij voorzien individuen en teams van instrumenten voor het kritisch denken 
-            en het verkrijgen van nieuwe inzichten bij het nemen van bijvoorbeeld ethische beslissingen of het leiden van een
-            betekenisvol leven.
-          </p>
-
-          <blockquote>
-            Een leven dat niet onderzocht wordt is het leven niet waard.
-            <cite>Socrates</cite>
-          </blockquote>
-
-          <p>
-            Filosofie is een levenshouding die helpt de wereld en onze plaats daarbinnen beter te begrijpen. Iedereen heeft baat
-            bij filosofische reflectie, ongeacht achtegrond of levensfase. Wij integreren instrumenten uit verschillende
-            filosofische tradities en bieden daarmee begeleiding op maat. Onze diensten bestaan uit individuele consulten,
-            groepsessies, workshops en online cursussen ten behoeve van filosofische reflectie. Of het nu gaat om persoonlijke
-            groei, morele dilemma's, besluitvorming of het verbeteren van de teamdynamiek. De filosofen staan klaar om u te
-            ondersteunen en te begeleiden.
-          
+    <main>
+      <article id="actie">
+        <h2>Filosofie in actie</h2>
+        <p>
+          Wij halen filosofie uit de academische wereld en maken haar toegankelijk, praktitisch en toepasbaar voor
+          iedereen. Filosofie is niet enkel een academische discipline maar een levende praktijk die iedereen kan
+          toepassen in het dagelijks leven. Wij voorzien individuen en teams van instrumenten voor het kritisch denken
+          en het verkrijgen van nieuwe inzichten bij het nemen van bijvoorbeeld ethische beslissingen of het leiden van
+          een betekenisvol leven.
         </p>
-          
-        </article>
 
-        <article>
-          <h2>Filosofisch consult</h2>
-          <p>
-            Met een filosofische consultatie verkrijg je een scala aan praktische filosofische instrumenten en methoden die je 
-            kunt toepassen in het dagelijks leven. Het kan je helpen bij het nemen van belangrijke beslissingen, het oplossen 
-            van problemen, onderzoeken van levensvragen, waarden en overtuigingen, het vinden van meer zingeving of verkrijgen 
-            van een nieuw perspectief.  
-            
-            Aan de hand van verschillende filosofische technieken wordt middels een één-op-één gesprek een unieke gelegenheid geboden 
-            om persoonlijke groei en zelfbewustzijn te bevorderen.
-         
-           <blockquote>
-            Je hebt de macht over jouw geest, niet over externe omstandigheden. 
-            Realiseer je dit en je vindt kracht.
-            <cite>Marcus Aurelius</cite>
-          </blockquote>
-          
-          </p>
-          
-        </article>
-      </section>
+        <blockquote>
+          Een leven dat niet onderzocht wordt is het leven niet waard.
+          <cite>Socrates</cite>
+        </blockquote>
 
-      <footer>
-        <p>&copy; Copyright 2025, all rights reserved.</p>
-      </footer>
-    </div>
+        <p>
+          Filosofie is een levenshouding die helpt de wereld en onze plaats daarbinnen beter te begrijpen. Iedereen
+          heeft baat bij filosofische reflectie, ongeacht achtegrond of levensfase. Wij integreren instrumenten uit
+          verschillende filosofische tradities en bieden daarmee begeleiding op maat. Onze diensten bestaan uit
+          individuele consulten, groepsessies, workshops en online cursussen ten behoeve van filosofische reflectie. Of
+          het nu gaat om persoonlijke groei, morele dilemma's, besluitvorming of het verbeteren van de teamdynamiek. De
+          filosofen staan klaar om u te ondersteunen en te begeleiden.
+        </p>
+      </article>
+
+      <article id="consult">
+        <h2>Filosofisch consult</h2>
+        <p>
+          Met een filosofische consultatie verkrijg je een scala aan praktische filosofische instrumenten en methoden
+          die je kunt toepassen in het dagelijks leven. Het kan je helpen bij het nemen van belangrijke beslissingen,
+          het oplossen van problemen, onderzoeken van levensvragen, waarden en overtuigingen, het vinden van meer
+          zingeving of verkrijgen van een nieuw perspectief. Aan de hand van verschillende filosofische technieken wordt
+          middels een één-op-één gesprek een unieke gelegenheid geboden om persoonlijke groei en zelfbewustzijn te
+          bevorderen.
+        </p>
+
+        <blockquote>
+          Je hebt de macht over jouw geest, niet over externe omstandigheden. Realiseer je dit en je vindt kracht.
+          <cite>Marcus Aurelius</cite>
+        </blockquote>
+      </article>
+    </main>
+
+    <footer>
+      <p>Copyright 2025, all rights reserved.</p>
+    </footer>
   </body>
 </html>
