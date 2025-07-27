@@ -62,7 +62,7 @@ blockquote footer {
   text-indent: -0.7em;
 }
 
-div#wrapper {
+body > div {
   width: 60em;
   margin: 3em auto 0 auto;
   text-align: left;
